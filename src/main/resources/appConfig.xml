@@ -7,7 +7,7 @@
         <constructor-arg name="memberRepository" ref="memberRepository"/>
     </bean>
 
-    <bean id="memberRepository" class="com.hello.core.member.MemberyMemberRepository"/>
+    <bean id="memberRepository" class="com.hello.core.member.MemoryMemberRepository"/>
 
     <bean id="orderService" class="com.hello.core.order.OrderServiceImpl">
         <constructor-arg name="memberRepository" ref="memberRepository"/>
